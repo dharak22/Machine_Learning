@@ -1,2 +1,2 @@
 # Machine_Learning
-This repository contains Basic Machine Learning codes 
+This repository contains various Machine Learning Projects which have been implemented by me. 
