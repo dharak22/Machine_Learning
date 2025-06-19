@@ -1,0 +1,4 @@
+Test Loss: 0.3578
+Test Accuracy: 91.24%
+F1 Score: 0.7258
+AUC Score: 0.9568
