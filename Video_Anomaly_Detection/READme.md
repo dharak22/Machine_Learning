@@ -4,7 +4,7 @@
 
 A deep learning-based video anomaly detection system that combines Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) to identify anomalous events in video sequences with 91.24% accuracy.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Technical Architecture](#technical-architecture)
@@ -15,14 +15,14 @@ A deep learning-based video anomaly detection system that combines Convolutional
 - [Model Performance](#model-performance)
 - [Future Work](#future-work)
 
-## 🎯 Overview
+## Overview
 
 This project implements a hybrid CNN-RNN architecture for automated video anomaly detection. The system processes video sequences frame-by-frame, extracting spatial features using convolutional layers and modeling temporal dependencies through recurrent networks to classify normal and anomalous behavior.
 
 **Research Institution:** Indian Institute of Information Technology, Allahabad  
 **Domain:** Computer Vision, Deep Learning, Video Analysis
 
-## ✨ Key Features
+## Key Features
 
 - **Hybrid Architecture**: Combines CNN for spatial feature extraction and RNN for temporal modeling
 - **Sequence Processing**: Handles variable-length video sequences (60 frames per sequence)
@@ -30,7 +30,7 @@ This project implements a hybrid CNN-RNN architecture for automated video anomal
 - **High Accuracy**: Achieved 91.24% test accuracy with robust F1 and AUC scores
 - **Scalable Design**: Modular architecture supporting multiple anomaly classes
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### Model Pipeline
 
@@ -68,7 +68,7 @@ Output Layer (Softmax - 10 classes)
   - Early Stopping (patience: 5)
   - Learning Rate Reduction (factor: 0.5, patience: 3)
 
-## 📊 Results
+## Results
 
 ### Performance Metrics
 
@@ -86,7 +86,7 @@ Output Layer (Softmax - 10 classes)
 - Balanced precision-recall trade-off (F1 score: 0.73)
 - Robust performance across multiple anomaly classes
 
-## 📁 Dataset
+## Dataset
 
 The model is trained on a custom video dataset organized as follows:
 
@@ -127,14 +127,11 @@ matplotlib
 git clone https://github.com/yourusername/video-anomaly-detection.git
 cd video-anomaly-detection
 
-# Install dependencies
-pip install -r requirements.txt
-
 # Prepare dataset
 # Place your video frames in Dataset/Train and Dataset/Test directories
 ```
 
-## 💻 Usage
+## Usage
 
 ### Training the Model
 
@@ -159,7 +156,7 @@ batch_size = 8            # Training batch size
 num_classes = 10          # Number of anomaly classes
 ```
 
-## 📈 Model Performance
+## Model Performance
 
 The trained model demonstrates:
 
@@ -168,14 +165,14 @@ The trained model demonstrates:
 - **Robustness**: High AUC score indicates strong discriminative capability
 - **Efficiency**: Optimized architecture for reasonable training time
 
-## 🔬 Technical Contributions
+## Technical Contributions
 
 1. **Architecture Design**: Developed hybrid CNN-RNN model tailored for video anomaly detection
 2. **Data Pipeline**: Implemented efficient custom data generator for video sequence processing
 3. **Performance Optimization**: Applied learning rate scheduling and early stopping strategies
 4. **Comprehensive Evaluation**: Multi-metric assessment (Accuracy, F1, AUC) for thorough model validation
 
-## 🚧 Future Work
+## Future Work
 
 - [ ] Implement attention mechanisms for improved temporal modeling
 - [ ] Explore 3D CNN architectures (C3D, I3D) for joint spatiotemporal learning
@@ -196,11 +193,11 @@ The trained model demonstrates:
 
 ## 👤 Author
 
-**Your Name**  
+**Solanki Dharak Deepak**  
 Research Intern | IIIT Allahabad  
-[LinkedIn](your-linkedin) | [Email](your-email) | [Portfolio](your-website)
+[LinkedIn](https://www.linkedin.com/in/dharak-solanki-9a185b258//) | [Email](dharaksolanki111@gmail.com)
 
-## 📄 License
+## License
 
 This project was developed as part of a research internship at IIIT Allahabad.
 
