@@ -108,7 +108,7 @@ Dataset/
 - **Preprocessing**: Frames normalized to [0, 1] range
 - **Format**: RGB images resized to 240×240 pixels
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -183,25 +183,24 @@ The trained model demonstrates:
 - [ ] Experiment with unsupervised/semi-supervised approaches
 - [ ] Optimize for edge deployment (model quantization, pruning)
 
-## 📚 Technologies Used
+## Technologies Used
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-D00000?logo=keras)
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)
-![NumPy](https://img.shields.io/badge/NumPy-Array%20Processing-013243?logo=numpy)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn)
+![TensorFlow]
+![Keras]
+![Python]
+![NumPy]
+![scikit-learn]
 
-## 👤 Author
+## Author
 
 **Solanki Dharak Deepak**  
 Research Intern | IIIT Allahabad  
-[LinkedIn](https://www.linkedin.com/in/dharak-solanki-9a185b258//) | [Email](dharaksolanki111@gmail.com)
 
 ## License
 
 This project was developed as part of a research internship at IIIT Allahabad.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - IIIT Allahabad for providing research facilities and guidance
 - Department of Computer Science for computational resources
