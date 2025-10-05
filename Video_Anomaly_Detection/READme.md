@@ -185,11 +185,11 @@ The trained model demonstrates:
 
 ## Technologies Used
 
-![TensorFlow]
-![Keras]
-![Python]
-![NumPy]
-![scikit-learn]
+[TensorFlow]
+[Keras]
+[Python]
+[NumPy]
+[scikit-learn]
 
 ## Author
 
